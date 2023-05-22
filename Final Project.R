@@ -36,7 +36,7 @@ MCMC <- function(X, y, n, beta_start=c(0,0,0), jump_dist_sd=0.1){
      return(beta)
 }
 
-# data <- read.csv("ai4i2020.csv")
+data <- read.csv("ai4i2020.csv")
 
 burn_in_length <- 10000
 N <- 50000   # total number of points
